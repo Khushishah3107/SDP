@@ -1,0 +1,57 @@
+.prog-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.prog-heading p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.programe-container {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-auto-rows: auto; /* Ensures all cards have the same height */
+   
+}
+
+.prog-card {
+    text-align: center;
+    padding: 1rem;
+    background: #1a1919;
+}
+
+.prog-card img {
+    width: 100%;
+    padding: 2rem 2rem;
+}
+
+.prog-title {
+    align-items: center;
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.prog-details p {
+    padding-bottom: 1rem;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.prog-btn {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+@media screen and (max-width: 740px) {
+    .programe-container {
+        max-width: 90%;
+        margin: auto;
+    }
+}

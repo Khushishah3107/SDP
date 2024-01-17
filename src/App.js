@@ -3,7 +3,6 @@ import Homepage from "./Components/Homepage";
 
 import Navbar from "./Components/Navbar";
 import { useState } from "react";
-import Login from "./Components/Login";
 import './index.css'
 import Home from "./routes/Home";
 import About from "./routes/About";
@@ -21,9 +20,10 @@ import EC from "./routes/EC";
 import IT from "./routes/IT";
 import CH from "./routes/CH";
 import MH from "./routes/MH";
+import Login from './Components/Login'
 function App() {
 
-  const [theme,setTheme] =useState('light');
+  // const [theme,setTheme] =useState('light');
   return (
     <>
       <Routes>
@@ -43,6 +43,7 @@ function App() {
         <Route path="/itd" element={<IT/>}/>
         <Route path="/chd" element={<CH/>}/>
         <Route path="/mhd" element={<MH/>}/>
+        <Route path="/login" element={<Login/>}/>
       </Routes>
     </>
     // {/* <div className={`container ${theme}`}>

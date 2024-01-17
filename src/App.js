@@ -1,8 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Homepage from "./Components/Homepage";
 
-import Navbar from "./Components/Navbar";
-import { useState } from "react";
 import './index.css'
 import Home from "./routes/Home";
 import About from "./routes/About";
@@ -21,6 +18,8 @@ import IT from "./routes/IT";
 import CH from "./routes/CH";
 import MH from "./routes/MH";
 import Login from './Components/Login'
+import Std from './StudentModule/Dashboard'
+import Result from "./StudentModule/Result";
 function App() {
 
   // const [theme,setTheme] =useState('light');
@@ -44,6 +43,8 @@ function App() {
         <Route path="/chd" element={<CH/>}/>
         <Route path="/mhd" element={<MH/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/home" element={<Std/>}/>
+        <Route path="/result" element={<Result/>}/>
       </Routes>
     </>
     // {/* <div className={`container ${theme}`}>

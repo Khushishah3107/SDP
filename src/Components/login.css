@@ -72,3 +72,39 @@
     margin-top: 1rem;
   }
   
+/* Add this to your existing CSS or create a new file */
+
+.custom-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3a3939; /* Adjust the background color as needed */
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 300px; /* Adjust the width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup-content h1 {
+   
+    margin-bottom: 10px;
+  }
+  
+  .popup-content p {
+    
+    margin-bottom: 20px;
+  }
+  
+  .popup-content button {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

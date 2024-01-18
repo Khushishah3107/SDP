@@ -18,7 +18,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     margin-top: 80px;
-    background-color: #f8f8f8
+   
 }
 
 .std-heading,
@@ -32,14 +32,14 @@
 .std-heading h1,
 .gur-heading h1,
 .cont-heading h1{
-    color: black;
+    color: white;
 }
 
 .student-details p,
 .gur-det p,
 .cont-det p {
     margin-bottom: 25px;
-    color: black;
+    color: white;
 }
 
 .std-btn {
